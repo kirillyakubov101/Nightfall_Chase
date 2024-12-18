@@ -1,0 +1,54 @@
+# Build and Intermediate Files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# User-specific files
+*.log
+*.tmp
+*.ldb
+*.lock
+*.db
+*.cache
+*.dmp
+*.swp
+*.suo
+*.user
+*.userosscache
+*.pdb
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled source files
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Unreal Engine specific
+*.uasset
+*.umap
+*.uproject.user
+*.generated.cpp
+
+# Plugin-specific
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Git LFS
+# If you are using Git LFS, do not ignore the tracked file types.
+# Add exceptions for tracked file types here:
+# !*.png
+# !*.fbx
+# !*.wav
