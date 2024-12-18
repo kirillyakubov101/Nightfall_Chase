@@ -32,10 +32,16 @@ Saved/
 *.orig
 
 # Unreal Engine specific
-*.uasset
-*.umap
 *.uproject.user
 *.generated.cpp
+
+# Ignore all .uasset and .umap files by default...
+*.uasset
+*.umap
+
+# ...but allow tracked files like animations, models, and textures
+!Content/**/*.uasset
+!Content/**/*.umap
 
 # Plugin-specific
 Plugins/*/Binaries/
