@@ -32,3 +32,14 @@ void ANFC_CharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 
 }
 
+void ANFC_CharacterBase::SubscribeToInteractDelegate(FOnInteractCompleteSignature& OutDelegate,float timer)
+{
+	OutDelegate.BindUObject(this, &ANFC_CharacterBase::PlayerCompleteRitual);
+	this->BeginRitual(timer);
+}
+
+void ANFC_CharacterBase::PlayerCompleteRitual_Implementation()
+{
+	UE_LOG(LogTemp, Error, TEXT("PLAYER: ritual complete."));
+}
+
