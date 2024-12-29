@@ -20,13 +20,10 @@ protected:
 
 
 public:
-	// Inherited via IInteract
-	void Interact_Implementation(AActor* Interactor) override;
-	virtual void InteractProcess(AActor* Interactor) override;
-	//End of IInteract
+	virtual void Interact_Implementation(AActor* Interactor) override;
 
 protected:
-	void CompleteInteraction();
+	void CompleteRitual();
 
 	UPROPERTY(BlueprintReadOnly,VisibleAnywhere)
 	bool bHasRitualDone = false;
@@ -34,7 +31,4 @@ protected:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	float RitualTime = 3.f;
 
-private:
-	FOnInteractCompleteSignature OnInteractCompleteDelegate;
-	FTimerHandle MyTimerHandle;
 };

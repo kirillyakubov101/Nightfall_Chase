@@ -25,7 +25,5 @@ class NIGHTFALL_CHASE_API IInteract
 public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void Interact(AActor* Interactor);
-
-	UFUNCTION()
-	virtual void InteractProcess(AActor* Interactor) = 0;
+	virtual void Interact_Implementation(AActor* Interactor);
 };

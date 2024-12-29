@@ -32,14 +32,34 @@ void ANFC_CharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 
 }
 
-void ANFC_CharacterBase::SubscribeToInteractDelegate(FOnInteractCompleteSignature& OutDelegate,float timer)
+void ANFC_CharacterBase::StartRitual(float RitualTime, FOnRitualCompleteSignature& OutDelegate)
 {
-	OutDelegate.BindUObject(this, &ANFC_CharacterBase::PlayerCompleteRitual);
-	this->BeginRitual(timer);
+	OnRitualCompleteDelegate = OutDelegate;
+
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ANFC_CharacterBase::FinishRitual_Implementation, RitualTime, false);
 }
 
-void ANFC_CharacterBase::PlayerCompleteRitual_Implementation()
+void ANFC_CharacterBase::FinishRitual_Implementation()
 {
-	UE_LOG(LogTemp, Error, TEXT("PLAYER: ritual complete."));
+	OnRitualCompleteDelegate.ExecuteIfBound();
+	UE_LOG(LogTemp, Warning, TEXT("Player: DONE"));
 }
+
+void ANFC_CharacterBase::StopRitual_Implementation()
+{
+	if (OnRitualCompleteDelegate.IsBound())
+	{
+		OnRitualCompleteDelegate.Unbind();
+		if (GetWorld()->GetTimerManager().IsTimerActive(TimerHandle))
+		{
+			GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
+		}
+	}
+}
+
+void ANFC_CharacterBase::InterruptPlayerAction()
+{
+	StopRitual_Implementation();
+}
+
 

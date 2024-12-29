@@ -4,12 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "InteractInstigator.h"
+#include "RitualInstigator.h"
 #include "InteractionDelegates.h"
 #include "NFC_CharacterBase.generated.h"
 
 UCLASS()
-class NIGHTFALL_CHASE_API ANFC_CharacterBase : public ACharacter, public IInteractInstigator
+class NIGHTFALL_CHASE_API ANFC_CharacterBase : public ACharacter, public IRitualInstigator
 {
 	GENERATED_BODY()
 
@@ -24,11 +24,17 @@ public:
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	virtual void SubscribeToInteractDelegate(FOnInteractCompleteSignature& OutDelegate, float timer) override;
+	// Inherited via IRitualInstigator
+	virtual void StartRitual(float RitualTime, FOnRitualCompleteSignature& OutDelegate) override;
 
-	UFUNCTION(BlueprintCallable,BlueprintImplementableEvent)
-	void BeginRitual(float timer);
+	virtual void FinishRitual_Implementation() override;
 
-	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
-	void PlayerCompleteRitual();
+	virtual void StopRitual_Implementation() override;
+
+	UFUNCTION(BlueprintCallable)
+	void InterruptPlayerAction();
+
+protected:
+	FOnRitualCompleteSignature OnRitualCompleteDelegate;
+	FTimerHandle TimerHandle;
 };
