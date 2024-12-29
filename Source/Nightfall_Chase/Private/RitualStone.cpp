@@ -20,7 +20,7 @@ void ARitualStone::Interact_Implementation(AActor* Interactor)
 	if (Interactor == nullptr || bHasRitualDone) { return; }
 
 	IRitualInstigator* instance = Cast<IRitualInstigator>(Interactor);
-	if(instance)
+	if(instance && !instance->IsRitualInstigatorBusy())
 	{
 		TSharedPtr<FOnRitualCompleteSignature> OutDelegate = MakeShared<FOnRitualCompleteSignature>();
 		OutDelegate->BindUObject(this, &ARitualStone::CompleteRitual);

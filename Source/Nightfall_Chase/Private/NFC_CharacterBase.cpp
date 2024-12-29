@@ -11,37 +11,20 @@ ANFC_CharacterBase::ANFC_CharacterBase()
 
 }
 
-// Called when the game starts or when spawned
-void ANFC_CharacterBase::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ANFC_CharacterBase::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
-// Called to bind functionality to input
-void ANFC_CharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
-
 void ANFC_CharacterBase::StartRitual(float RitualTime, TSharedPtr<FOnRitualCompleteSignature> OutDelegate)
 {
+	bIsRitualInstigatorBusy = true;
 	OnRitualCompleteDelegate = OutDelegate;
+	StartRitualEvent(); //BP- EVENT
 
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ANFC_CharacterBase::FinishRitual_Implementation, RitualTime, false);
 }
 
 void ANFC_CharacterBase::FinishRitual_Implementation()
 {
+	Execute_FinishRitual(this);
 	OnRitualCompleteDelegate->ExecuteIfBound();
+	bIsRitualInstigatorBusy = false;
 	UE_LOG(LogTemp, Warning, TEXT("Player: DONE"));
 }
 
@@ -54,7 +37,14 @@ void ANFC_CharacterBase::StopRitual_Implementation()
 		{
 			GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 		}
+
+		bIsRitualInstigatorBusy = false;
 	}
+}
+
+bool ANFC_CharacterBase::IsRitualInstigatorBusy() const
+{
+	return bIsRitualInstigatorBusy;
 }
 
 void ANFC_CharacterBase::InterruptPlayerAction()

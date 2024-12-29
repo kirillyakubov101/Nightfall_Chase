@@ -16,14 +16,6 @@ class NIGHTFALL_CHASE_API ANFC_CharacterBase : public ACharacter, public IRitual
 public:
 	ANFC_CharacterBase();
 
-protected:
-	virtual void BeginPlay() override;
-
-public:	
-	virtual void Tick(float DeltaTime) override;
-
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 	// Inherited via IRitualInstigator
 	virtual void StartRitual(float RitualTime, TSharedPtr<FOnRitualCompleteSignature> OutDelegate) override;
 
@@ -31,10 +23,21 @@ public:
 
 	virtual void StopRitual_Implementation() override;
 
+	virtual bool IsRitualInstigatorBusy() const override;
+	// End of Inherited via IRitualInstigator
+
 	UFUNCTION(BlueprintCallable)
 	void InterruptPlayerAction();
+
+	//BP- EVENT
+	UFUNCTION(BlueprintCallable,BlueprintImplementableEvent)
+	void StartRitualEvent();
 
 protected:
 	TSharedPtr<FOnRitualCompleteSignature> OnRitualCompleteDelegate;
 	FTimerHandle TimerHandle;
+
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
+	bool bIsRitualInstigatorBusy = false;
+	
 };
