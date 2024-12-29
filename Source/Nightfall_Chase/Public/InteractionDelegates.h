@@ -4,3 +4,4 @@
 
 // Delegate for interaction completion
 DECLARE_DELEGATE(FOnInteractCompleteSignature);
+DECLARE_MULTICAST_DELEGATE(FOnShrinePrayedSignature);

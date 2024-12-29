@@ -25,7 +25,10 @@ void ANFC_CharacterBase::FinishRitual_Implementation()
 	Execute_FinishRitual(this);
 	OnRitualCompleteDelegate->ExecuteIfBound();
 	bIsRitualInstigatorBusy = false;
-	UE_LOG(LogTemp, Warning, TEXT("Player: DONE"));
+	if (OnShrinePrayedDelegate.IsBound())
+	{
+		OnShrinePrayedDelegate.Broadcast();
+	}
 }
 
 void ANFC_CharacterBase::StopRitual_Implementation()

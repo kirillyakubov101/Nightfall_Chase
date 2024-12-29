@@ -8,6 +8,8 @@
 #include "InteractionDelegates.h"
 #include "NFC_CharacterBase.generated.h"
 
+
+
 UCLASS()
 class NIGHTFALL_CHASE_API ANFC_CharacterBase : public ACharacter, public IRitualInstigator
 {
@@ -33,11 +35,16 @@ public:
 	UFUNCTION(BlueprintCallable,BlueprintImplementableEvent)
 	void StartRitualEvent();
 
+public:
+	FOnShrinePrayedSignature OnShrinePrayedDelegate;
+
 protected:
 	TSharedPtr<FOnRitualCompleteSignature> OnRitualCompleteDelegate;
 	FTimerHandle TimerHandle;
 
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	bool bIsRitualInstigatorBusy = false;
+
+	
 	
 };
