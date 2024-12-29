@@ -25,7 +25,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	// Inherited via IRitualInstigator
-	virtual void StartRitual(float RitualTime, FOnRitualCompleteSignature& OutDelegate) override;
+	virtual void StartRitual(float RitualTime, TSharedPtr<FOnRitualCompleteSignature> OutDelegate) override;
 
 	virtual void FinishRitual_Implementation() override;
 
@@ -35,6 +35,6 @@ public:
 	void InterruptPlayerAction();
 
 protected:
-	FOnRitualCompleteSignature OnRitualCompleteDelegate;
+	TSharedPtr<FOnRitualCompleteSignature> OnRitualCompleteDelegate;
 	FTimerHandle TimerHandle;
 };

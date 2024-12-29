@@ -32,7 +32,7 @@ void ANFC_CharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 
 }
 
-void ANFC_CharacterBase::StartRitual(float RitualTime, FOnRitualCompleteSignature& OutDelegate)
+void ANFC_CharacterBase::StartRitual(float RitualTime, TSharedPtr<FOnRitualCompleteSignature> OutDelegate)
 {
 	OnRitualCompleteDelegate = OutDelegate;
 
@@ -41,15 +41,15 @@ void ANFC_CharacterBase::StartRitual(float RitualTime, FOnRitualCompleteSignatur
 
 void ANFC_CharacterBase::FinishRitual_Implementation()
 {
-	OnRitualCompleteDelegate.ExecuteIfBound();
+	OnRitualCompleteDelegate->ExecuteIfBound();
 	UE_LOG(LogTemp, Warning, TEXT("Player: DONE"));
 }
 
 void ANFC_CharacterBase::StopRitual_Implementation()
 {
-	if (OnRitualCompleteDelegate.IsBound())
+	if (OnRitualCompleteDelegate.IsValid() && OnRitualCompleteDelegate->IsBound())
 	{
-		OnRitualCompleteDelegate.Unbind();
+		OnRitualCompleteDelegate->Unbind();
 		if (GetWorld()->GetTimerManager().IsTimerActive(TimerHandle))
 		{
 			GetWorld()->GetTimerManager().ClearTimer(TimerHandle);

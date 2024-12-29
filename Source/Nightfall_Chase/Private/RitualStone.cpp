@@ -22,8 +22,8 @@ void ARitualStone::Interact_Implementation(AActor* Interactor)
 	IRitualInstigator* instance = Cast<IRitualInstigator>(Interactor);
 	if(instance)
 	{
-		FOnRitualCompleteSignature OutDelegate;
-		OutDelegate.BindUObject(this, &ARitualStone::CompleteRitual);
+		TSharedPtr<FOnRitualCompleteSignature> OutDelegate = MakeShared<FOnRitualCompleteSignature>();
+		OutDelegate->BindUObject(this, &ARitualStone::CompleteRitual);
 
 		instance->StartRitual(RitualTime, OutDelegate);
 		

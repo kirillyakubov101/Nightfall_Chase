@@ -33,5 +33,5 @@ public:
 	void StopRitual();
 	virtual void StopRitual_Implementation() = 0;
 
-	virtual void StartRitual(float RitualTime, FOnRitualCompleteSignature& OutDelegate) = 0;
+	virtual void StartRitual(float RitualTime, TSharedPtr<FOnRitualCompleteSignature> OutDelegate) = 0;
 };
