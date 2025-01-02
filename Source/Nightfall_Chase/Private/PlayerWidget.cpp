@@ -10,8 +10,6 @@
 void UPlayerWidget::NativeConstruct()
 {
     Super::NativeConstruct();
-
-    ARitualStone::OnShrineApproachedDelegate.BindUObject(this, &UPlayerWidget::OnShrineApproached);
 }
 
 void UPlayerWidget::InitPlayerWidget(ACharacter* Owner)

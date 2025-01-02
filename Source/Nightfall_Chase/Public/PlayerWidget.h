@@ -23,9 +23,6 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnGoalUpdated();
 
-	UFUNCTION(BlueprintImplementableEvent)
-	void OnShrineApproached();
-
 	//wrapper func to call the bp event
 	void UpdateGoalFunc();
 };
