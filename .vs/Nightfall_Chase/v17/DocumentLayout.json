@@ -3,56 +3,28 @@
   "WorkspaceRootPath": "K:\\MoreUnreal\\Nightfall_Chase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\PlayerWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\RitualStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\RitualStone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\RitualStone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualInstigator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\RitualInstigator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\RitualStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\Interact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\Interact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\PlayerWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{09688F2F-1B0B-3AA1-97CF-375EEBD83162}|Intermediate\\ProjectFiles\\Nightfall_Chase.vcxproj|solutionrelative:Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,8 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerWidget.cpp",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T04:10:43.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerWidget.h",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-02T04:07:39.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RitualStone.cpp",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T04:05:14.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RitualStone.h",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\RitualStone.h",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\RitualStone.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-02T03:38:08.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NFC_CharacterBase.h",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-02T03:51:14.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerGoalTracker.cpp",
+              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
+              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
+              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
+              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T03:40:37.638Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -75,165 +125,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasePlayerAbility.cpp",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\BasePlayerAbility.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-01T18:50:10.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BasePlayerAbility.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\BasePlayerAbility.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-01T18:50:10.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Nightfall_Chase.Build.cs",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Nightfall_Chase.Build.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T21:56:38.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerWidget.cpp",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\PlayerWidget.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T21:22:17.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerWidget.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\PlayerWidget.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T21:22:17.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerGoalTracker.cpp",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\PlayerGoalTracker.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T21:06:32.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerGoalTracker.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\PlayerGoalTracker.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T21:06:32.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NFC_CharacterBase.cpp",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\NFC_CharacterBase.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-28T17:58:11.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NFC_CharacterBase.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\NFC_CharacterBase.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-28T17:41:39.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RitualStone.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\RitualStone.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualStone.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\RitualStone.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-28T17:01:21.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RitualStone.cpp",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Private\\RitualStone.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-28T17:01:22.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RitualInstigator.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualInstigator.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\RitualInstigator.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\RitualInstigator.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\RitualInstigator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-28T17:21:05.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Interact.h",
-              "DocumentMoniker": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\Interact.h",
-              "RelativeDocumentMoniker": "Source\\Nightfall_Chase\\Public\\Interact.h",
-              "ToolTip": "K:\\MoreUnreal\\Nightfall_Chase\\Source\\Nightfall_Chase\\Public\\Interact.h",
-              "RelativeToolTip": "Source\\Nightfall_Chase\\Public\\Interact.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-27T03:53:40.405Z"
             }
           ]
         }

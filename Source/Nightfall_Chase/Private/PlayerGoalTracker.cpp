@@ -26,6 +26,13 @@ void UPlayerGoalTracker::BeginPlay()
 void UPlayerGoalTracker::CompleteShrine()
 {
 	AmountOfShrinesComplete++;
+	if (AmountOfShrinesComplete == AmountOfShrinesToPray)
+	{
+		if (OnAllShrinesDoneDelegate.IsBound())
+		{
+			OnAllShrinesDoneDelegate.Broadcast();
+		}
+	}
 }
 
 

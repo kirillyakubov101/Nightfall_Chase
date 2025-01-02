@@ -4,6 +4,9 @@
 #include "RitualStone.h"
 #include "RitualInstigator.h"
 
+//static
+FOnShrineApproachedSignature ARitualStone::OnShrineApproachedDelegate;
+
 ARitualStone::ARitualStone()
 {
 	PrimaryActorTick.bCanEverTick = false;
@@ -28,6 +31,11 @@ void ARitualStone::Interact_Implementation(AActor* Interactor)
 		instance->StartRitual(RitualTime, OutDelegate);
 		
 	}
+}
+
+void ARitualStone::ApproachShrine()
+{
+	OnShrineApproachedDelegate.ExecuteIfBound();
 }
 
 void ARitualStone::CompleteRitual()

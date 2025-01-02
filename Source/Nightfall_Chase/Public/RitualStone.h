@@ -7,6 +7,8 @@
 #include "Interact.h"
 #include "RitualStone.generated.h"
 
+DECLARE_DELEGATE(FOnShrineApproachedSignature);
+
 UCLASS()
 class NIGHTFALL_CHASE_API ARitualStone : public AActor, public IInteract
 {
@@ -21,6 +23,11 @@ protected:
 
 public:
 	virtual void Interact_Implementation(AActor* Interactor) override;
+	
+	static FOnShrineApproachedSignature OnShrineApproachedDelegate;
+
+	UFUNCTION(BlueprintCallable)
+	void ApproachShrine();
 
 protected:
 	void CompleteRitual();

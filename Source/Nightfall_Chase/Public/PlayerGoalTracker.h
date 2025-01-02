@@ -6,6 +6,8 @@
 #include "Components/ActorComponent.h"
 #include "PlayerGoalTracker.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnAllShrinesDoneSignature);
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class NIGHTFALL_CHASE_API UPlayerGoalTracker : public UActorComponent
@@ -19,6 +21,9 @@ public:
 public:
 	UFUNCTION(BlueprintPure)
 	FORCEINLINE bool IsGoalReached() const { return AmountOfShrinesToPray == AmountOfShrinesComplete; }
+
+	UPROPERTY(BlueprintAssignable)
+	FOnAllShrinesDoneSignature OnAllShrinesDoneDelegate;
 
 protected:
 	// Called when the game starts

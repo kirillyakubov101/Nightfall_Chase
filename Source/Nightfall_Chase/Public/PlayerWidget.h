@@ -15,11 +15,16 @@ class NIGHTFALL_CHASE_API UPlayerWidget : public UUserWidget
 	GENERATED_BODY()
 	
 protected:
+	virtual void NativeConstruct() override;
+
 	UFUNCTION(BlueprintCallable)
 	void InitPlayerWidget(ACharacter* Owner);
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnGoalUpdated();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnShrineApproached();
 
 	//wrapper func to call the bp event
 	void UpdateGoalFunc();

@@ -4,7 +4,15 @@
 #include "PlayerWidget.h"
 #include "Kismet/GameplayStatics.h"
 #include "NFC_CharacterBase.h"
+#include "RitualStone.h"
 
+
+void UPlayerWidget::NativeConstruct()
+{
+    Super::NativeConstruct();
+
+    ARitualStone::OnShrineApproachedDelegate.BindUObject(this, &UPlayerWidget::OnShrineApproached);
+}
 
 void UPlayerWidget::InitPlayerWidget(ACharacter* Owner)
 {
@@ -14,13 +22,11 @@ void UPlayerWidget::InitPlayerWidget(ACharacter* Owner)
         if (Player)
         {
             Player->OnShrinePrayedDelegate.AddUObject(this, &UPlayerWidget::OnGoalUpdated);
-            UE_LOG(LogTemp, Warning, TEXT("Delegate added in NativeConstruct"));
         }
     }
 }
 
 void UPlayerWidget::UpdateGoalFunc()
 {
-	UE_LOG(LogTemp, Warning, TEXT("UpdateGoalFunc"));
 	OnGoalUpdated();
 }
